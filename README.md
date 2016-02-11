@@ -1,6 +1,9 @@
 # spa_framework
 
-# Additional instructions for help to run this project. In the Command Prompt, execute the following commend -
+
+SPA is a single page application building in angularjs. 
+
+Additional instructions for help to run this project. In the Command Prompt, execute the following commend -
 
 git clone git@github.com:tithi021/spa_framework.git After cloned your app then enter the following command -
 
