@@ -1,0 +1,10 @@
+<li class="ps-selectable-item" ng-click="clicked()">
+	<div class="ps-noselect">
+		<i class="fa {{icon}} ps-menu-icon"></i>
+		{{label}}
+		<i class="fa fa-chevron-left ps-group-indicator-left" ng-class="{'fa-rotate-270': isOpen}"></i>
+	</div>
+</li>
+<div ng-show="isOpen" class="ps-subitem-section">
+	<ul ng-transclude></ul>
+</div>

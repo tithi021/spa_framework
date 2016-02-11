@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<title></title>
+
+	<!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/app.css">
+	<link rel="stylesheet" type="text/css" href="ext-modules/psFramework/psFramework.css">
+	<link rel="stylesheet" type="text/css" href="ext-modules/psMenu/psMenu.css">
+	
+	<!--JavaScript-->
+
+	<script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/script/angular.min.js"></script>
+
+	<!--Angular Modules-->
+	<!--psMenu-->
+	<script type="text/javascript" src="ext-modules/psMenu/psMenuModule.js"></script>
+	<script type="text/javascript" src="ext-modules/psMenu/psMenuController.js"></script>
+	<script type="text/javascript" src="ext-modules/psMenu/psMenuDirective.js"></script>
+	<script type="text/javascript" src="ext-modules/psMenu/psMenuItemDirective.js"></script>
+	<script type="text/javascript" src="ext-modules/psMenu/psMenuGroupDirective.js"></script>
+
+	<!--psDashboard-->
+	<script type="text/javascript" src="ext-modules/psDashboard/psDashboardModule.js"></script>
+
+	<!--psFramework-->
+	<script type="text/javascript" src="ext-modules/psFramework/psFrameworkModule.js"></script>
+	<script type="text/javascript" src="ext-modules/psFramework/psFrameworkController.js"></script>
+	<script type="text/javascript" src="ext-modules/psFramework/psFrameworkDirective.js"></script>
+	<script type="text/javascript" src="app/appModule.js"></script>
+
+
+
+</head>
+<body class="container-fluid">
+
+	<ps-framework title="Whitewater adventures"
+					subtitle="Administrative app"
+					icon-file="assets/images/headerImg.png">
+
+		<ps-menu>
+			<ps-menu-item label="Dashboard" icon="fa-dashboard" route="dashboard"></ps-menu-item>
+			<ps-menu-item label="Location" icon="fa-location-arrow" route="location"></ps-menu-item>
+			<ps-menu-item label="Raft Guids" icon="fa-user" route="guides"></ps-menu-item>
+
+			<ps-menu-group label="Equipment" icon="fa-gears">
+				<ps-menu-item label="Rafts" icon="fa-unlink" route="rafts"></ps-menu-item>
+				<ps-menu-item label="Paddles" icon="fa-magic" route="paddles"></ps-menu-item>
+				<ps-menu-item label="Life Vests" icon="fa-life-ring" route="vests"></ps-menu-item>
+				
+			</ps-menu-group>
+		</ps-menu>
+	</ps-framework>
+
+
+</body>
+</html>
