@@ -1,0 +1,22 @@
+{
+  "name": "spa_framework",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "tithi021 <afroza021@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tithi021/spa_framework",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "^2.2.1"
+  }
+}
