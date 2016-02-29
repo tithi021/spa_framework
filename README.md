@@ -1,18 +1,14 @@
 # spa_framework
 
+SPA is a single page application build with angularjs.
 
-SPA is a single page application building in angularjs. 
+Instructions
 
-Additional instructions for help to run this project. In the Command Prompt, execute the following commend -
-
-git clone git@github.com:tithi021/spa_framework.git After cloned your app then enter the following command -
-
-    cd spa_framework 
-
-This project running using express node server.
-
-The app starts a server and listens on port 3000 for connection.
-
-So, Run the app with the following command.
-
-$ node server OR $ sudo node server Then, load http://localhost:3000/ in a browser to see the output.
+clone the project
+cd into the project directory
+The project runs using express node server. in the terminal just type the following command:
+$ node server
+# OR
+$ sudo node server
+Project should be up and running on http://localhost:3000/
+Now you can open a browser and load the url.
